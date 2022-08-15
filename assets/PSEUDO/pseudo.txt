@@ -1,0 +1,20 @@
+html notes
+
+linked to bootstrap v 4.3.1, fontawesome v 5.8.1, googleapis fonts?, and standard style.css
+
+<header>
+header class = jumbotron
+h1 class = display-3
+p class = lead
+p id = currentDay, class = lead
+empty div for the time blocks,  class = container
+</header>
+
+script links to jQuery 3.2.1 and moment.js 2.24.0
+    added link to new script.js file
+
+
+refer to css for class names throughout?
+
+
+
