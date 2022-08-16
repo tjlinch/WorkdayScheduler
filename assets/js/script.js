@@ -14,6 +14,7 @@ var fourForm
 var fiveForm
 
 
+
 var save0 = $('#save0');
 var save1
 var save2
@@ -27,7 +28,12 @@ var save9
 
 console.log(save0);
 var currentTime = moment().startOf('day').fromNow();
-console.log(typeof currentTime);
+console.log(currentTime);
+
+save0.on('click', function(event){
+    event.preventDefault();
+    console.log(eightForm.val());
+})
 
 
 
