@@ -14,10 +14,8 @@ var fourForm
 var fiveForm
 
 
-eightForm.text('test');
-
-// var currentTime = moment().startOf('day').fromNow();
-// console.log(currentTime);
+var currentTime = moment().startOf('day').fromNow();
+console.log(typeof currentTime);
 
 
 
