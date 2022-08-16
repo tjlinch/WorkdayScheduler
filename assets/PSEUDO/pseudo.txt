@@ -16,5 +16,21 @@ script links to jQuery 3.2.1 and moment.js 2.24.0
 
 refer to css for class names throughout?
 
+js
+
+want to display current day in the header <p> element with an id of "currentDay" using moment()
+
+timeblocks already made in html
+
+capture user text inputs and save them in local storage
+
+retrieve the saved values in local storage, and update the text inputs with values
+
+if the current hour is later than any given timeblock, that timeblock needs to be assigned the class of 'past'
+
+if the current hour is equal to a timeblock, assign class of 'present'
+
+if the current hour is earlier than a timeblock, assign class of 'future'
+
 
 
