@@ -1,21 +1,21 @@
 //Variable declarations
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
-var mainEl = $('#main');
-console.log(mainEl.children);
 
+var eightAmInput = $('#8amInput');
+var nineAmInput = $('#9amInput');
+var tenAmInput = $('#10amInput');
+var elevenAmInput = $('#11amInput');
+var twelvePmInput = $('#12pmInput');
+var onePmInput = $('#1pmInput');
+var twoPmInput = $('#2pmInput');
+var threePmInput = $('#3pmInput');
+var fourPmInput = $('#4pmInput');
+var fivePmInput = $('#5pmInput');
+var Inputs = [eightAmInput, nineAmInput, tenAmInput, elevenAmInput, twelvePmInput, onePmInput, twoPmInput, threePmInput, fourPmInput, fivePmInput];
 
+console.log(eightAmInput.val);
 
-// var eightAmEl = $('#8amInput');
-// var nineAmEl = $('#9amInput');
-// var tenAmEl = $('#10amInput');
-// var elevenAmEl = $('#11amInput');
-// var twelvePmEl = $('#12pmInput');
-// var onePmEl = $('#1pmInput');
-// var twoPmEl = $('#2pmInput');
-// var threePmEl = $('#3pmInput');
-// var fourPmEl = $('#4pmInput');
-// var fivePmEl = 
 
 
 
